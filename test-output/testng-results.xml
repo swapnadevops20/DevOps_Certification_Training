@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-01T16:05:13 IST" name="fkartTesting" finished-at="2021-12-01T16:08:15 IST" duration-ms="181813">
+    <groups>
+    </groups>
+    <test started-at="2021-12-01T16:05:13 IST" name="1.fkartLoginPageTest" finished-at="2021-12-01T16:05:53 IST" duration-ms="40632">
+      <class name="com.qa.fkart.Tests.fkart_LoginPageTest">
+        <test-method is-config="true" signature="startBrowser()[pri:0, instance:com.qa.fkart.Tests.fkart_LoginPageTest@37654521]" started-at="2021-12-01T16:05:13 IST" name="startBrowser" finished-at="2021-12-01T16:05:20 IST" duration-ms="6931" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method signature="ValidateTitleTest()[pri:49, instance:com.qa.fkart.Tests.fkart_LoginPageTest@37654521]" started-at="2021-12-01T16:05:20 IST" name="ValidateTitleTest" description="Validating Title Test" finished-at="2021-12-01T16:05:20 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateTitleTest -->
+        <test-method signature="closeLoginTest(java.lang.String)[pri:50, instance:com.qa.fkart.Tests.fkart_LoginPageTest@37654521]" started-at="2021-12-01T16:05:20 IST" name="closeLoginTest" description="Closing LoginModal Screen" finished-at="2021-12-01T16:05:53 IST" duration-ms="32934" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hp]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeLoginTest -->
+        <test-method is-config="true" signature="closeTest()[pri:0, instance:com.qa.fkart.Tests.fkart_LoginPageTest@37654521]" started-at="2021-12-01T16:05:53 IST" name="closeTest" finished-at="2021-12-01T16:05:53 IST" duration-ms="674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTest -->
+      </class> <!-- com.qa.fkart.Tests.fkart_LoginPageTest -->
+    </test> <!-- 1.fkartLoginPageTest -->
+    <test started-at="2021-12-01T16:05:54 IST" name="2.fkartRedmiGoPageTest" finished-at="2021-12-01T16:06:36 IST" duration-ms="42265">
+      <class name="com.qa.fkart.Tests.fkart_RedmigoPageTest">
+        <test-method is-config="true" signature="startBrowser()[pri:0, instance:com.qa.fkart.Tests.fkart_RedmigoPageTest@2b91004a]" started-at="2021-12-01T16:05:54 IST" name="startBrowser" finished-at="2021-12-01T16:05:58 IST" duration-ms="4795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method signature="ValidateTitleTest()[pri:49, instance:com.qa.fkart.Tests.fkart_RedmigoPageTest@2b91004a]" started-at="2021-12-01T16:05:58 IST" name="ValidateTitleTest" description="Validating Title Test" finished-at="2021-12-01T16:05:58 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateTitleTest -->
+        <test-method signature="redmigoTest(java.lang.String)[pri:50, instance:com.qa.fkart.Tests.fkart_RedmigoPageTest@2b91004a]" started-at="2021-12-01T16:05:58 IST" name="redmigoTest" description="Testing RedmiGo Screen" finished-at="2021-12-01T16:06:35 IST" duration-ms="36827" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[knife]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- redmigoTest -->
+        <test-method is-config="true" signature="closeTest()[pri:0, instance:com.qa.fkart.Tests.fkart_RedmigoPageTest@2b91004a]" started-at="2021-12-01T16:06:35 IST" name="closeTest" finished-at="2021-12-01T16:06:36 IST" duration-ms="623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTest -->
+      </class> <!-- com.qa.fkart.Tests.fkart_RedmigoPageTest -->
+    </test> <!-- 2.fkartRedmiGoPageTest -->
+    <test started-at="2021-12-01T16:06:36 IST" name="3.fkartProductNamePricePageTest" finished-at="2021-12-01T16:07:19 IST" duration-ms="43345">
+      <class name="com.qa.fkart.Tests.fkart_ProductNamePricePageTest">
+        <test-method is-config="true" signature="startBrowser()[pri:0, instance:com.qa.fkart.Tests.fkart_ProductNamePricePageTest@22ef9844]" started-at="2021-12-01T16:06:36 IST" name="startBrowser" finished-at="2021-12-01T16:06:42 IST" duration-ms="6155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method signature="ValidateTitleTest()[pri:49, instance:com.qa.fkart.Tests.fkart_ProductNamePricePageTest@22ef9844]" started-at="2021-12-01T16:06:42 IST" name="ValidateTitleTest" description="Validating Title Test" finished-at="2021-12-01T16:06:42 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateTitleTest -->
+        <test-method signature="ProductNamePriceTest(java.lang.String)[pri:50, instance:com.qa.fkart.Tests.fkart_ProductNamePricePageTest@22ef9844]" started-at="2021-12-01T16:06:42 IST" name="ProductNamePriceTest" description="Testing Product Name Price Screen" finished-at="2021-12-01T16:07:18 IST" duration-ms="36516" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[laptop]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductNamePriceTest -->
+        <test-method is-config="true" signature="closeTest()[pri:0, instance:com.qa.fkart.Tests.fkart_ProductNamePricePageTest@22ef9844]" started-at="2021-12-01T16:07:19 IST" name="closeTest" finished-at="2021-12-01T16:07:19 IST" duration-ms="660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTest -->
+      </class> <!-- com.qa.fkart.Tests.fkart_ProductNamePricePageTest -->
+    </test> <!-- 3.fkartProductNamePricePageTest -->
+    <test started-at="2021-12-01T16:07:19 IST" name="4.fkartProductAddToCartPageTest" finished-at="2021-12-01T16:08:15 IST" duration-ms="55464">
+      <class name="com.qa.fkart.Tests.fkart_ProductAddToCartPageTest">
+        <test-method is-config="true" signature="startBrowser()[pri:0, instance:com.qa.fkart.Tests.fkart_ProductAddToCartPageTest@7e7be63f]" started-at="2021-12-01T16:07:19 IST" name="startBrowser" finished-at="2021-12-01T16:07:25 IST" duration-ms="5695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method signature="ValidateTitleTest()[pri:49, instance:com.qa.fkart.Tests.fkart_ProductAddToCartPageTest@7e7be63f]" started-at="2021-12-01T16:07:25 IST" name="ValidateTitleTest" description="Validating Title Test" finished-at="2021-12-01T16:07:25 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateTitleTest -->
+        <test-method signature="AddToCartTest(java.lang.String,java.lang.String)[pri:50, instance:com.qa.fkart.Tests.fkart_ProductAddToCartPageTest@7e7be63f]" started-at="2021-12-01T16:07:25 IST" name="AddToCartTest" description="Selected Product is Added to Cart" finished-at="2021-12-01T16:08:14 IST" duration-ms="49053" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[headphones]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[516360]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddToCartTest -->
+        <test-method is-config="true" signature="closeTest()[pri:0, instance:com.qa.fkart.Tests.fkart_ProductAddToCartPageTest@7e7be63f]" started-at="2021-12-01T16:08:14 IST" name="closeTest" finished-at="2021-12-01T16:08:15 IST" duration-ms="701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTest -->
+      </class> <!-- com.qa.fkart.Tests.fkart_ProductAddToCartPageTest -->
+    </test> <!-- 4.fkartProductAddToCartPageTest -->
+  </suite> <!-- fkartTesting -->
+</testng-results>

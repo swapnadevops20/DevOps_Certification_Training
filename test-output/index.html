@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-fkartTesting" class="navigator-link">
+              <span class="suite-name border-passed">fkartTesting</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-fkartTesting" class="navigator-link ">
+                    <span>D:\Users\Swapna\eclipse-workspace2020\AbstergoIncs_Incs_Ecommerce\src\main\resources\com\qa\fkart\TestRunner\fkartTestRunner.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-fkartTesting" class="navigator-link ">
+                    <span class="test-stats">4 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-fkartTesting" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-fkartTesting" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-fkartTesting" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-fkartTesting" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-fkartTesting" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-fkartTesting" class="hide-methods passed suite-fkartTesting"> (hide)</a> <!-- hide-methods passed suite-fkartTesting -->
+                      <a href="#" panel-name="suite-fkartTesting" class="show-methods passed suite-fkartTesting"> (show)</a> <!-- show-methods passed suite-fkartTesting -->
+                    </span>
+                    <div class="method-list-content passed suite-fkartTesting">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-fkartTesting" title="com.qa.fkart.Tests.fkart_ProductAddToCartPageTest" class="method navigator-link" hash-for-method="AddToCartTest(headphones, 516360)">AddToCartTest(headphones, 516360)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-fkartTesting" title="com.qa.fkart.Tests.fkart_ProductNamePricePageTest" class="method navigator-link" hash-for-method="ProductNamePriceTest(laptop)">ProductNamePriceTest(laptop)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-fkartTesting" title="com.qa.fkart.Tests.fkart_LoginPageTest" class="method navigator-link" hash-for-method="ValidateTitleTest">ValidateTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-fkartTesting" title="com.qa.fkart.Tests.fkart_RedmigoPageTest" class="method navigator-link" hash-for-method="ValidateTitleTest">ValidateTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-fkartTesting" title="com.qa.fkart.Tests.fkart_ProductNamePricePageTest" class="method navigator-link" hash-for-method="ValidateTitleTest">ValidateTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-fkartTesting" title="com.qa.fkart.Tests.fkart_ProductAddToCartPageTest" class="method navigator-link" hash-for-method="ValidateTitleTest">ValidateTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-fkartTesting" title="com.qa.fkart.Tests.fkart_LoginPageTest" class="method navigator-link" hash-for-method="closeLoginTest(hp)">closeLoginTest(hp)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-fkartTesting" title="com.qa.fkart.Tests.fkart_RedmigoPageTest" class="method navigator-link" hash-for-method="redmigoTest(knife)">redmigoTest(knife)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-fkartTesting -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-fkartTesting" class="panel fkartTesting">
+          <div class="suite-fkartTesting-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.fkart.Tests.fkart_ProductAddToCartPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddToCartTest(headphones, 516360)">
+                  </a> <!-- AddToCartTest(headphones, 516360) -->
+                  <span class="method-name">AddToCartTest</span>
+                  <span class="parameters">(headphones, 516360)</span>
+                  <em>
+(Selected Product is Added to Cart)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateTitleTest">
+                  </a> <!-- ValidateTitleTest -->
+                  <span class="method-name">ValidateTitleTest</span>
+                  <em>
+(Validating Title Test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-fkartTesting-class-passed -->
+          <div class="suite-fkartTesting-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.fkart.Tests.fkart_LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateTitleTest">
+                  </a> <!-- ValidateTitleTest -->
+                  <span class="method-name">ValidateTitleTest</span>
+                  <em>
+(Validating Title Test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="closeLoginTest(hp)">
+                  </a> <!-- closeLoginTest(hp) -->
+                  <span class="method-name">closeLoginTest</span>
+                  <span class="parameters">(hp)</span>
+                  <em>
+(Closing LoginModal Screen)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-fkartTesting-class-passed -->
+          <div class="suite-fkartTesting-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.fkart.Tests.fkart_RedmigoPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateTitleTest">
+                  </a> <!-- ValidateTitleTest -->
+                  <span class="method-name">ValidateTitleTest</span>
+                  <em>
+(Validating Title Test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="redmigoTest(knife)">
+                  </a> <!-- redmigoTest(knife) -->
+                  <span class="method-name">redmigoTest</span>
+                  <span class="parameters">(knife)</span>
+                  <em>
+(Testing RedmiGo Screen)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-fkartTesting-class-passed -->
+          <div class="suite-fkartTesting-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.fkart.Tests.fkart_ProductNamePricePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ProductNamePriceTest(laptop)">
+                  </a> <!-- ProductNamePriceTest(laptop) -->
+                  <span class="method-name">ProductNamePriceTest</span>
+                  <span class="parameters">(laptop)</span>
+                  <em>
+(Testing Product Name Price Screen)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateTitleTest">
+                  </a> <!-- ValidateTitleTest -->
+                  <span class="method-name">ValidateTitleTest</span>
+                  <em>
+(Validating Title Test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-fkartTesting-class-passed -->
+        </div> <!-- panel fkartTesting -->
+        <div panel-name="test-xml-fkartTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Users\Swapna\eclipse-workspace2020\AbstergoIncs_Incs_Ecommerce\src\main\resources\com\qa\fkart\TestRunner\fkartTestRunner.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;fkartTesting&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;1.fkartLoginPageTest&quot;&gt;
+    &lt;parameter name=&quot;productInput&quot; value=&quot;hp&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qa.fkart.Tests.fkart_LoginPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 1.fkartLoginPageTest --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;2.fkartRedmiGoPageTest&quot;&gt;
+    &lt;parameter name=&quot;productInput1&quot; value=&quot;knife&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qa.fkart.Tests.fkart_RedmigoPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 2.fkartRedmiGoPageTest --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;3.fkartProductNamePricePageTest&quot;&gt;
+    &lt;parameter name=&quot;productInput2&quot; value=&quot;laptop&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qa.fkart.Tests.fkart_ProductNamePricePageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 3.fkartProductNamePricePageTest --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;4.fkartProductAddToCartPageTest&quot;&gt;
+    &lt;parameter name=&quot;productInput3&quot; value=&quot;headphones&quot;/&gt;
+    &lt;parameter name=&quot;pincodeInput&quot; value=&quot;516360&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qa.fkart.Tests.fkart_ProductAddToCartPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 4.fkartProductAddToCartPageTest --&gt;
+&lt;/suite&gt; &lt;!-- fkartTesting --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-fkartTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for fkartTesting</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">1.fkartLoginPageTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">2.fkartRedmiGoPageTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">3.fkartProductNamePricePageTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">4.fkartProductAddToCartPageTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-fkartTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for fkartTesting</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-fkartTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for fkartTesting</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_fkartTesting');
+function tableData_fkartTesting() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'AddToCartTest')
+data.setCell(0, 2, 'com.qa.fkart.Tests.fkart_ProductAddToCartPageTest')
+data.setCell(0, 3, 49053);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'redmigoTest')
+data.setCell(1, 2, 'com.qa.fkart.Tests.fkart_RedmigoPageTest')
+data.setCell(1, 3, 36827);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'ProductNamePriceTest')
+data.setCell(2, 2, 'com.qa.fkart.Tests.fkart_ProductNamePricePageTest')
+data.setCell(2, 3, 36516);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'closeLoginTest')
+data.setCell(3, 2, 'com.qa.fkart.Tests.fkart_LoginPageTest')
+data.setCell(3, 3, 32934);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'ValidateTitleTest')
+data.setCell(4, 2, 'com.qa.fkart.Tests.fkart_LoginPageTest')
+data.setCell(4, 3, 22);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'ValidateTitleTest')
+data.setCell(5, 2, 'com.qa.fkart.Tests.fkart_RedmigoPageTest')
+data.setCell(5, 3, 9);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'ValidateTitleTest')
+data.setCell(6, 2, 'com.qa.fkart.Tests.fkart_ProductAddToCartPageTest')
+data.setCell(6, 3, 9);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'ValidateTitleTest')
+data.setCell(7, 2, 'com.qa.fkart.Tests.fkart_ProductNamePricePageTest')
+data.setCell(7, 3, 7);
+window.suiteTableData['fkartTesting']= { tableData: data, tableDiv: 'times-div-fkartTesting'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-fkartTesting">
+              </div> <!-- times-div-fkartTesting -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-fkartTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for fkartTesting</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-fkartTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-fkartTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.fkart.Tests.fkart_LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">startBrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">ValidateTitleTest</span>
+                <span class="method-start">6952 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">closeLoginTest(hp)</span>
+                <span class="method-start">6985 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeTest</span>
+                <span class="method-start">39925 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.fkart.Tests.fkart_RedmigoPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">startBrowser</span>
+                <span class="method-start">40700 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">ValidateTitleTest</span>
+                <span class="method-start">45496 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">redmigoTest(knife)</span>
+                <span class="method-start">45508 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeTest</span>
+                <span class="method-start">82339 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.fkart.Tests.fkart_ProductNamePricePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">startBrowser</span>
+                <span class="method-start">82968 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">ValidateTitleTest</span>
+                <span class="method-start">89123 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ProductNamePriceTest(laptop)</span>
+                <span class="method-start">89133 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeTest</span>
+                <span class="method-start">125652 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.fkart.Tests.fkart_ProductAddToCartPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">startBrowser</span>
+                <span class="method-start">126317 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">ValidateTitleTest</span>
+                <span class="method-start">132012 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">AddToCartTest(headphones, 516360)</span>
+                <span class="method-start">132024 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeTest</span>
+                <span class="method-start">181079 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
