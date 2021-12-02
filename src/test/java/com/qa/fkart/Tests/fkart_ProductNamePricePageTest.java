@@ -6,7 +6,7 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.qa.fkart.Base.fkart_Base;
-import com.qa.fkart.Pages.fkart_LoginPage;
+
 import com.qa.fkart.Pages.fkart_ProductNamePricePage;
 
 public class fkart_ProductNamePricePageTest extends fkart_Base{
