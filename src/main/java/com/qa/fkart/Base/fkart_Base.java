@@ -14,7 +14,7 @@ public static WebDriver driver;
 	{
 		
 		
-		  System.setProperty("webdriver.chrome.driver","E:\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		  System.setProperty("webdriver.chrome.driver","chromedriver.exe");
 				  
 				  driver = new ChromeDriver();
 				  
