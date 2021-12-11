@@ -15,11 +15,16 @@ public static WebDriver driver;
 		
 		
 		  System.setProperty("webdriver.chrome.driver","chromedriver.exe");
-				  
-				  driver = new ChromeDriver();
-				  
-				  driver.get("https://www.flipkart.com/");
+		
+		ChromeOptions chromeOptions = new ChromeOptions();
+		chromeOptions.addArguments("--headless");
+		chromeOptions.addArguments("--no-sandbox");
+
+		chromeOptions.setExperimentalOption("useAutomationExtension", false);
 				 
+		driver = new ChromeDriver();
+				  
+		driver.get("https://www.flipkart.com/");
 				
 		/*driver = new ChromeDriver();
 		driver.manage().window().maximize();
