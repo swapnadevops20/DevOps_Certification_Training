@@ -16,11 +16,11 @@ public static WebDriver driver;
 		
 		  System.setProperty("webdriver.chrome.driver","chromedriver.exe");
 		
-		ChromeOptions chromeOptions = new ChromeOptions();
+		/*ChromeOptions chromeOptions = new ChromeOptions();
 		chromeOptions.addArguments("--headless");
 		chromeOptions.addArguments("--no-sandbox");
 
-		chromeOptions.setExperimentalOption("useAutomationExtension", false);
+		chromeOptions.setExperimentalOption("useAutomationExtension", false);*/
 				 
 		driver = new ChromeDriver();
 				  
