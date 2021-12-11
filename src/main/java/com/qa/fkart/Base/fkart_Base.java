@@ -14,7 +14,7 @@ public static WebDriver driver;
 	{
 		
 		
-		  System.setProperty("webdriver.chrome.driver","chromedriver.exe");
+		  System.setProperty("webdriver.chrome.driver","chromedriver");
 		
 		/*ChromeOptions chromeOptions = new ChromeOptions();
 		chromeOptions.addArguments("--headless");
